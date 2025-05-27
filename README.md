@@ -24,7 +24,7 @@ This portfolio is designed to showcase my projects, skills, and provide a way fo
 
 ## Connect with Me
 
-You can find me on GitHub, Instagram, or send me an email using the links in the portfolio footer.
+You can find me on Instagram, or send me an email using the links in the portfolio footer.
 
 ---
 
