@@ -5,7 +5,7 @@ export function initSubtitleTypewriter() {
   const text = "Building things, breaking things, learning all the time.";
 
   setTimeout(() => {
-    typeWriter(subtitle, text, 100).then(() => {
+    typeWriter(subtitle, text, 120).then(() => {
       subtitle.classList.add("typing-complete");
     });
   }, 2500);
