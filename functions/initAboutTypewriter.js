@@ -22,7 +22,7 @@ const text2 =
                 aboutP1.style.opacity = "1";
                 typeWriter(aboutP1, text1, 30).then(() => {
                     aboutP2.style.opacity = "1";
-                    return typeWriter(aboutP2, text2, 30);
+                    return typeWriter(aboutP2, text2, 50);
                 });
                 }
             });
