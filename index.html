@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <link rel="icon" href="https://i.imgur.com/LRNKFeK.png" type="image/png" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Dasp</title>
+  </head>
+  <body>
+    <div class="parallax-bg"></div>
+    <div class="particles" id="particles"></div>
+
+    <!-- Header Section -->
+    <header class="header">
+      <div class="logo">
+        <img src="https://i.imgur.com/LRNKFeK.jpeg" alt="Logo" />
+      </div>
+      <h1 class="name">Dasp</h1>
+      <p class="subtitle typewriter" id="subtitle"></p>
+      <div class="scroll-indicator">
+        <div class="scroll-arrow"></div>
+      </div>
+    </header>
+
+    <main class="content">
+
+      <!-- About Section -->
+      <section class="section" id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+          <p id="about-p1"></p>
+          <p id="about-p2"></p>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section class="section" id="projects">
+        <h2>My Projects</h2>
+        <div class="projects-grid">
+
+          <div class="project-card">
+            <div class="project-banner" style="background-image: url('https://i.imgur.com/7P6sBDq.png');"></div>
+            <h3>Senko</h3>
+            <p>
+              A Discord bot I started around 2019, built with a lot more coding knowledge than my first project.  
+              It’s a multipurpose bot with commands for utilities, moderation, image editing, search, and more.  
+              It’s not open-source, but it’s still active for testing.  
+              Heads up though — its only available on Spanish.
+            </p>
+            <a href="https://discord.com/oauth2/authorize?client_id=1207787243817930802" class="project-link">Invite Senko</a>
+          </div>
+
+          <div class="project-card">
+            <div class="project-banner" style="background-image: url('https://media.tenor.com/x7JRDb1gW1QAAAAe/nichijou-sakamoto-san.png');"></div>
+            <h3>Sakamoto</h3>
+            <p>
+              My very first Discord bot project, started it as a learning experience. 
+              Not active anymore but where it all began.
+            </p>
+          </div>
+
+          <div class="project-card">
+            <div class="project-banner" style="background-image: url('https://i.imgur.com/5t8t4ZB.png');"></div>
+            <h3>This portfolio!</h3>
+            <p>
+              Yep, this exact page. I built it myself to share my projects, experiment with new ideas, and have a space that really feels like me.
+              It’s 100% vanilla HTML, CSS, and JS — no React magic here, just pure, raw code.
+              Feel free to use it however you want, just please give proper credit where it’s due.
+            </p>
+            <a href="#" class="project-link">View Project</a>
+          </div>
+
+          <div class="project-card">
+            <div class="project-banner" style="background-image: url('https://i.imgur.com/br9LtDu.jpeg');"></div>
+            <h3>Dasp Utils</h3>
+            <p>
+              A small package made for Discord Bots, its equipped with over 230 gifs for kisses, hugs, pats, etc.
+              also includes the anime name.
+            </p>
+            <a href="https://github.com/ItsDasp/dasp-utils" class="project-link">View Project</a>
+          </div>
+
+          <div class="project-card">
+          <div class="project-banner" style="background-image: url('https://i.imgur.com/PfkaQiH.png');"></div>
+          <h3>Toffee Club</h3>
+          <p>
+            My Discord community where we chat, share cool stuff, and just have a good time.  
+            It’s a chill spot with friendly folks. join the crew!
+          </p>
+          <a href="https://discord.gg/ktHe5MXPUd" class="project-link">Join Server</a>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section class="section" id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+          <div class="skill-item">
+            <h3>Languages</h3>
+            <p>
+              JavaScript (main), TypeScript, Python, Lua<br>
+              Currently learning: C, C++, Java
+            </p>
+          </div>
+          <div class="skill-item">
+            <h3>Frameworks & Libraries</h3>
+            <p>
+              React, Node.js, Discord.js
+            </p>
+          </div>
+          <div class="skill-item">
+            <h3>Frontend</h3>
+            <p>
+              HTML5, CSS3, some UI/UX design experience
+            </p>
+          </div>
+          <div class="skill-item">
+            <h3>Tools & Design</h3>
+            <p>
+              Git, basic Docker, Figma
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Social Section -->
+      <section class="section" id="social">
+        <h2>Connect With Me</h2>
+        <div class="social-links">
+          <a href="https://github.com/ItsDasp" class="social-link" title="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.instagram.com/xidasp/" class="social-link" title="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="mailto:daspx@proton.me" class="social-link" title="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+      </section>
+
+
+      <!-- Contact Section -->
+      <!--
+      <section class="section" id="contact">
+        <h2>Contact Me</h2>
+        <form class="contact-form">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+      </section>
+
+      Uncomment this if u want to use the contact section, me personally, I don't like this, and I was pretty lazy to code the logic. Chekout setupForm.js
+      -->
+
+    </main>
+    <footer class="footer">
+      <p>&copy; 2024 Dasp · Coded with love 💓</p>
+    </footer>
+    <script type="module" src="functions/main.js"></script>
+  </body>
+</html>
