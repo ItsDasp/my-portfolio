@@ -5,6 +5,7 @@ import { initAboutTypewriter } from "./initAboutTypewriter.js";
 import { setupIntersectionObserver } from "./setupIntersectionObserver.js";
 import { setupSmoothScrolling } from "./setupSmoothScrolling.js";
 import { setupForm } from "./setupForm.js";
+import { carouselSkills } from "./carouselSkills.js";
 
 document.addEventListener("DOMContentLoaded", () => {
   createParticles();
@@ -13,6 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
   setupForm();
   initSubtitleTypewriter();
   initAboutTypewriter();
+  carouselSkills();
 });
 
 window.addEventListener("scroll", handleParallax);
